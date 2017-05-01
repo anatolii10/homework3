@@ -1,0 +1,121 @@
+@font-face {
+  font-family: opensans;
+  src: url(../font/opensans.ttf);
+}
+body {
+  font-family: opensans;
+  width: 1060px;
+  height: auto;
+  border: 1px solid lightgray;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+li, a, img {
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/***********************Главное меню*******************************/
+.logo {
+  display: inline-block;
+  margin: 50px 0 0 46px ;
+}
+.nav {
+  background-image: url(../img/nav.png);
+  margin: 40px 48px 40px 46px;
+  padding-left: 10px;
+}
+.nav a {
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  margin: 0 10px;
+}
+.nav a:hover {
+  background-image: url(../img/nav_active.png);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/***************************Левое меню**************************/
+.left_menu {
+  width: 239px;
+  height: 239px;
+  border: 1px solid #c8c8c8;
+  display: inline-block;
+  margin-left: 46px;
+}
+.left_menu ol {
+  margin: 0;
+  padding: 0;
+}
+.left_menu li {
+  height: 39px;
+  width: 100%;
+  border-bottom: 1px solid #c8c8c8;
+  text-indent: 38px;
+  line-height: 40px;
+  font-size: 13px;
+}
+
+.left_menu li:last-child{
+  border-bottom: 0;
+}
+
+.left_menu a {
+  display: block;
+  color: #807e7e;
+  width: 100%;
+  height: 100%;
+}
+.left_menu li:hover {
+  background-color: #f9f9f9;
+}
+.left_menu a:hover {
+  color: #2c2c2c;
+  text-indent: 48px;
+  font-weight: bold;
+
+}
+
+
+/************************Контент***************************/
+.content {
+  display: inline-block;
+  vertical-align: top;
+  width: 678px;
+}
+
+.bike {
+  margin-left: 40px;
+  border: 1px solid lightgray;
+}
+p {
+  margin-left: 72px;
+  font-size: 13px;
+}
+
+
+/**************************Footer************************/
+
+.feedback {
+  background-image: url(../img/feedback.png);
+  margin: 40px 48px 60px 46px;
+}
+.feedback a {
+  display: block;
+  color: black;
+  height: 40px;
+  text-indent: 20px;
+  line-height: 40px;
+  font-size: 13px;
+}
+.feedback a:hover {
+  text-decoration: underline;
+}
+.feedback li:last-child {
+  margin-left: 40%;
+}
