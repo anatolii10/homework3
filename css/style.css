@@ -25,7 +25,7 @@ a {
   margin: 50px 0 0 46px ;
 }
 .nav {
-  background-image: url(../img/nav.png);
+  background: linear-gradient(to top, #454444, #575757);
   margin: 40px 47px 40px 46px;
   padding-left: 10px;
 }
@@ -36,9 +36,11 @@ a {
   margin: 0 10px;
 }
 .nav a:hover {
-  background-image: url(../img/nav_active.png);
-  border-left: 1px solid #838383;
-  border-right: 1px solid #838383;
+  background: linear-gradient(to top, #2f2f2f, #4a4a4a);
+  background-image: linear-gradient(to left, #838383 1px, transparent 1px),
+                    linear-gradient(to right, #838383 1px, transparent 1px),
+                    linear-gradient(to top, #2f2f2f, #4a4a4a),
+                    linear-gradient(to bottom, #2f2f2f, #4a4a4a);
 }
 
 /***************************Левое меню**************************/
